@@ -1,6 +1,6 @@
 <template>
-  <div class="background">
-       <img src="../../assets/images/background.png" width="100%">
+  <div class="hello">
+      <p>用户个人中心</p>
   </div>
 </template>
 

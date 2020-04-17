@@ -17,7 +17,10 @@ html,body{padding: 0;margin: 0;}
 }
 .header{
     width:100%;
-    height:75px;
+    height:65px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
 }
 .logo{
     float:left;
@@ -30,63 +33,19 @@ html,body{padding: 0;margin: 0;}
     overflow:hidden;
 }
 .nav{
-    position:absolute;
-    top:0;
-    right:0;
-    width:70px;
-    height:70px;
-    margin:15px;
-    overflow: hidden;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:45px;
 }
-.nav .nav-btn{
-    position:absolute;
-    top:0;
-    right:0;
-    width:30px;
-    height:30px;
-}
-.nav-item{
-    display:block;
-    width:30px;
-    height:30px;
-    z-index:100;
-}
-.nav-item image, .nav-btn-img{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-}
-.nav .go-top{
-    position:absolute;
-    top:0;
-    left:0;
-}
-.go-top img{
-    width: 30px;
-}
-.nav .go-user-info{
-    position:absolute;
-    bottom:10px;
-    left:10px;
-}
-.go-user-info img{
-    margin-top: 5px;
-    width: 30px;
-}
-.nav .go-my-poster{
-    position:absolute;
-    bottom:0;
-    right:0;
-}
-.go-my-poster img{
+.nav-item img{
     width: 30px;
 }
 .theme{
-    width:200px;
-    height:125px;
-    margin:30px auto;
+    width:220px;
+
+    margin:65px auto 35px;
 }
 .app-btn{
     display:inline-block;
