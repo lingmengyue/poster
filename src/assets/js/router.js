@@ -1,4 +1,4 @@
-import Vue from 'Vue';
+import Vue from 'vue';
 import Router from 'vue-router'
 
 //模块路由
