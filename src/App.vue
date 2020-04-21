@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import guide from './components/my_poster/index.vue';
+import guide from './components/user_poster/index.vue';
 
 export default {
   name: 'App',
